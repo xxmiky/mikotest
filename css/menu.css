@@ -1,0 +1,218 @@
+/* CSS pro horni menu i leve menu */
+
+#menu_top {
+  width: 100%;
+  height: 40px;
+  float: left;
+  padding-left:10px;
+}
+
+#menu {
+  float: left;
+  width: 120px;
+  margin-left: 50px;
+  xmargin-top: 15px;  
+}
+
+a.ofirme {
+  float: left ;
+  width: 170px;
+  height: 40px;
+  background-image: url(../images/menu-ofirme-red.png);
+} 
+a.ofirme:hover, a.ofirme-active {
+  float: left ;
+  width: 170px;
+  height: 40px;
+  background-image: url(../images/menu-ofirme-grey.png);
+} 
+a.foto {
+  float: left ;
+  width: 170px;
+  height: 40px;
+  background-image: url(../images/menu-foto-red.png);
+} 
+a.foto:hover, a.foto-active {
+  float: left ;
+  width: 170px;
+  height: 40px;
+  background-image: url(../images/menu-foto-grey.png);
+} 
+a.sortiment {
+  float: left ;
+  width: 170px;
+  height: 40px;
+  background-image: url(../images/menu-sort-red.png);
+}
+a.sortiment:hover, a.sortiment-active {
+  float: left ;
+  width: 170px;
+  height: 40px;
+  background-image: url(../images/menu-sort-grey.png);
+}       
+a.kontakt {
+  float: left ;
+  width: 170px;
+  height: 40px;
+  background-image: url(../images/menu-kontakt-red.png);
+} 
+a.kontakt:hover, a.kontakt-active {
+  float: left ;
+  width: 170px;
+  height: 40px;
+  background-image: url(../images/menu-kontakt-grey.png);
+}   
+a.akce {
+  float: left ;
+  width: 270px;
+  height: 40px;
+  background-image: url(../images/menu-akce-red.png);
+}  
+a.akce:hover, a.akce-active {
+  float: left ;
+  width: 270px;
+  height: 40px;
+  background-image: url(../images/menu-akce-grey.png);
+}
+
+   
+.menu_seznam{
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 2px;
+  font-size: 10pt;
+  text-decoration: none;
+  font-family: tahoma;
+  text-align: left;
+  line-height: 25px;
+  border-bottom: 1px dashed grey;
+  margin-left: 13px;
+  margin-right: 5px;
+  text-indent: 0;
+}
+.menu_seznam a{
+  xlist-style-type: none;
+  color: white;
+  xcolor: rgb(255,102,0);
+  font-size: 10pt;
+  text-decoration: none;
+  font-family: tahoma;
+  text-align: left;
+  text-indent: 0;
+}
+.menu_seznam a:hover{
+  color: black;
+  background-color: #CAC7C7;
+}
+
+.menu_seznam2{
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  font-size: 10pt;
+  text-decoration: none;
+  font-family: tahoma;
+  text-align: left;
+  line-height: 25px;
+  border-bottom: 1px dashed grey;
+  margin-left: 13px;
+  margin-right: 5px;
+  text-indent: 0;
+}
+.menu_seznam2 a{
+  xlist-style-type: none;
+  color: white;
+  xcolor: rgb(255,102,0);
+  font-size: 10pt;
+  text-decoration: none;
+  font-family: tahoma;
+  text-align: left;
+  text-indent: 0;
+}
+.menu_seznam2 a:hover{
+  color: black;
+  background-color: #CAC7C7;
+} 
+.menu_seznam_sortiment{
+  /* color: rgb(0,153,255); */
+  color: rgb(255,43,0);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  xpadding-left: 10px;
+  font-size: 10pt;
+  text-decoration: none;
+  font-family: tahoma;
+  text-align: center;
+  line-height: 25px;
+  border-bottom: 1px solid grey;
+  margin-left: 13px;
+  margin-right: 5px;
+  text-indent: 0;
+}
+.menu_seznam_sortiment a{
+  xlist-style-type: none;
+  /* color: rgb(0,153,255); */
+  color: rgb(255,43,0);
+  xcolor: rgb(255,102,0);
+  font-size: 10pt;
+  text-decoration: none;
+  font-family: tahoma;
+  text-align: left;
+  text-indent: 0;
+}
+.menu_seznam_sortiment a:hover{
+  color: black;
+  background-color: #CAC7C7;
+}
+
+.menu_seznam_druh{
+  /* color: rgb(0,153,255); */
+  color: blue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  xpadding-left: 10px;
+  font-size: 10pt;
+  text-decoration: none;
+  font-family: tahoma;
+  text-align: center;
+  line-height: 25px;
+  border-bottom: 1px solid grey;
+  margin-left: 13px;
+  margin-right: 5px;
+  text-indent: 0;
+}
+.menu_seznam_druh a{
+  xlist-style-type: none;
+  /* color: rgb(0,153,255); */
+  color: blue;
+  xcolor: rgb(255,102,0);
+  font-size: 10pt;
+  text-decoration: none;
+  font-family: tahoma;
+  text-align: left;
+  text-indent: 0;
+}
+.menu_seznam_druh a:hover{
+  color: black;
+  background-color: #CAC7C7;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.left_menu_root{
+    
+}
+.left_menu_first{
+    
+}
+.left_menu_two{
+    
+}
+.left_menu_three{
+    
+}

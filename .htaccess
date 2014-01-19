@@ -1,0 +1,30 @@
+ErrorDocument 404 http://miko-interiery.cz/index.php?page=chybovka
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond $1 !^(favicon\.ico|favicon\.png|media|robots\.txt|crossdomain\.xml|css|js|jpg|png)
+RewriteRule testovaci-kategorie(.*)$ osvetleni.php?url=$1 [L,QSA]
+
+#RewriteRule osvetleni(.*)$ osvetleni.php?url=$1 [L,QSA]
+#RewriteRule (.*) $1.php [L] 
+
+
+#RewriteRule   /o-firme   index.php?page=o-firme   
+#RewriteRule   (/fotogalerie)   index.php?page=fotogalerie
+#RewriteRule   (/sortiment)   index.php?page=sortiment
+#RewriteRule   (/kontakt)   index.php?page=kontakt
+#RewriteRule   (/akce-novinky)   index.php?page=akce-novinky
+
+#RewriteRule   kuchyne   kuchyne.php
+#RewriteRule   jidelni-sestavy	jidelni-sestavy.php
+#RewriteRule   obyvaci-sestavy   obyvaci-sestavy.php
+#RewriteRule   sedaci-soupravy   sedacky.php
+#RewriteRule   loznice   loznice.php
+#RewriteRule   vestavne-skrine   vestavne-skrine.php
+#RewriteRule   detske-pokoje   detske-pokoje.php
+#RewriteRule   kanclelarsky-nabytek   kancl-nabytek.php
+#RewriteRule   koupelnovy-nabytek   koupelnovy-nabytek.php
+#RewriteRule   osvetleni   osvetleni.php
+

@@ -1,0 +1,304 @@
+/*
+      styl pro dalsi stranky krome main
+*/
+
+
+div {
+  xborder: 1px solid orange;
+  xpadding:1px;
+  xmargin: 1px;
+}
+
+body {
+  background-color: black;
+  text-align: center;
+  margin: 0 auto;
+  width: 970px;
+  font-family: tahoma;
+  color: black; 
+  font-size: 10pt;      
+}
+body.produkty{
+    background-color: white;
+    text-align: left;
+}
+body.produkty a{
+    color: blue;
+}
+
+#container {
+  margin-top: 0;
+  width: 970px;
+}
+
+#left_main {
+  color: white;
+  float: left;
+  width: 690px;
+  height: 600px;
+}
+
+#banner {
+  width: 690px;
+  height: 257px;
+  /*background-image: url(../images/banner_miko.jpg); */
+  float: left;
+}
+#banner_home {
+  width: 100%;
+  height: 257px;
+  background-image: url(../images/banner_miko.jpg);
+}
+/*  dalsi nabidka sortimentu (u mainu = news)  */
+#next{
+  width: 280px;
+  height: 257px;
+  background-image: url(../images/other_page_07.png);
+  float: left;
+}
+
+#logo {
+  width: 100%;
+  height: 94px;
+  background-image: url(../images/other_page_08.png);
+  float: left;
+  
+}
+#logo_home {
+  xfloat: left;
+  width: 100%;
+  height: 94px;
+  background-image: url(../images/obr_main_08.png);
+}
+#middle {
+  float:left;
+  background-image: url(../images/other_page_10.png);
+  width: 100%;
+  background-repeat: repeat-y;
+  min-height: 350px;
+  _min-height: 350px;
+}
+#middle_home {
+  float:left;
+  background-image: url(../images/main_page.png);
+  width: 100%;
+  background-repeat: repeat-y;
+  min-height: 300px;
+}
+
+#main {
+  float: left;
+  width: 760px;
+  xheight: 300px;
+  text-align: justify;
+  position: relative;
+  margin-left: 15px;  
+}
+
+#main_home {
+  float: left;
+  width: 500px;
+  xheight: 300px;
+  xborder: 1px solid red;
+  xborder: 1px solid pink;
+}
+#footer {
+  float: left;
+  width: 100%;
+  height: 60px;
+  background-image: url(../images/other_page_11.png);
+  background-repeat: no-repeat;
+  
+} 
+#footer_home {
+  float: left;
+  width: 100%;
+  height: 60px;
+  background-image: url(../images/obr_main_11.png);
+  background-repeat: no-repeat;
+  
+} 
+#news {
+  float: left;
+  width: 280px;
+  color: white;
+}
+#news_top {
+  width: 100%;
+  height: 24px;
+  background-image: url(../images/news_01.png) ;
+}
+#news_mid {
+  width: 100%;    
+  /* min-height: 810px; */
+  min-height: 1027px;
+  _min-height: 873px;
+  background: url(../images/news_03.png) repeat-y;
+}
+#news_bot {
+  width: 100%;
+  height: 24px;
+  background-image: url(../images/news_05.png);
+}     
+ 
+#pata{
+  float:left;
+  height: 20px;
+  width: 100%;
+  xborder: 1px solid orange;
+  xpadding-bottom: 50px;
+  xmargin-top: 50px;
+}
+h6, h6 a{
+  color: white;
+  text-align: center;
+}
+.text{
+  color: black;
+  font-family: tahoma;
+  text-align: justify;
+  font-size: 10pt;
+}
+.text2{
+  color: black;
+  font-family: tahoma;
+  text-align: justify;
+  font-size: 10pt;
+  text-indent: 30px;
+}
+.text a:link, .text a:visited {text-decoration: none; color: blue;}
+.text a:hover, .text a:active {text-decoration: underline; color: blue;}
+
+.nadpis{
+  color: #C43535;
+  font-size: 24px;
+  font-family: tahoma;
+  font-weight: normal;
+  padding-left: 180px;
+  line-height: 94px;
+  width: 100%;  
+}
+
+.rozdeleni {
+  /* width: 148px; 
+  margin: 0 2px 15px 13px; */
+  width: 150px;
+  margin: 0 2px 15px 11px;
+  float: left;
+  display: inline;
+  border: 1px solid black;
+  /* border-top: 0; */
+}
+.rozdeleni2 {
+  width: 240px;
+  margin: 0 5px 20px 5px;
+  float: left;
+  display: inline;
+  text-align: center;
+  border: 1px solid black;
+  min-height: 160px;
+  _min-height: 160px;
+}
+
+
+.news-bar{
+  margin-left: 30px;
+  padding-top: 30px;
+  width: 200px;
+  height: 220px;
+  border-bottom: 1px dashed gray;
+}
+h3, h3 a{color: black; font-size: 10pt;}
+h3 a:link, h3 a:visited {text-decoration: none; xcolor: blue;}
+h3 a:hover, h3 a:active {text-decoration: underline; xcolor: blue;}
+
+
+.odkaz-news{color: blue;}
+
+.mapa{
+  position: absolute;
+  left: 270px;
+  top: 0;
+  text-align: center;
+}
+.navigace{
+  text-align: center;
+  text-decoration: none;
+  color: grey;
+  font-size: 10pt;
+  margin-top: 0;
+  margin-bottom: 50px;
+} 
+.navigace a:link, .navigace a:visited {text-decoration: none; color: blue;}
+.navigace a:hover, .navigace a:active {text-decoration: underline; color: blue;}
+
+.no_border{border: 0px;}
+.stred{text-align: center;}
+
+.doporuceni{
+  color: #C43535;
+  font-size: 13pt;
+  border-bottom: 1px dashed grey;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-bottom: 5px;
+}
+.doporuceni_text{
+  margin-left: 30px;
+  text-align: left;
+}
+
+.strankovani, .strankovani a {
+  width: 100%;
+  text-align: center;
+  color: blue;     
+}
+.chyba{
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+  }
+.h3_akce{
+  color: red;
+  font-size: 10pt;
+}
+.next_akce{
+  color: red;
+  font-size: 10pt;
+  text-align: center;
+  margin-top: 30px;
+}
+.next_bar{
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.rozmery{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.rozmery_info, .rozmery_info a{
+  color: rgb(50,50,50);
+  font-size: 12px;
+}
+.product-picture{
+    margin: 0 5px;
+    width: 230px;
+    height: 165px;
+}
+.product-picture img{
+    max-width: 230px;
+    max-height: 160px;
+}
+.product-description{
+    text-align: left;
+    padding: 0 5px;
+    height: 80px;
+}
+.product-description p{
+    margin: 0;
+}
+.menu_seznam_new a{
+    color: white;
+}
